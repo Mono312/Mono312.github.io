@@ -1,200 +1,192 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "HOU PENGKUN",
+    "label": "",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "houpengkun@u.nus.edu",
+    "phone": "(+65)81203878",
+    "url": "",
+    "summary": "",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "21 Lower Kent Ridge Road",
+      "postalCode": "119077",
+      "city": "Singapore",
+      "countryCode": "SG",
+      "region": ""
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "LinkedIn",
+        "username": "linkedin",
+        "url": ""
+      },
+      {
+        "network": "GitHub",
+        "username": "github",
+        "url": ""
       }
     ]
   },
   "work": [
-    {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
   ],
-  "volunteer": [
+  "volunteer": [],
+"education": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-    }
-  ],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
+      "institution": "Beijing University of Posts and Telecommunications, School of Computer Science",
+      "location": "Beijing, China",
+      "url": "",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "Sep 2021",
+      "endDate": "July 2025",
+      "score": "GRADE: 89.86/100.00, RANK: 40/417",
+      "courses": []
     },
     {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
+      "institution": "National University of Singapore, School of Computing",
+      "location": "Singapore",
+      "url": "",
+      "area": "Computer Science",
+      "studyType": "Visiting Student (NGNE & SWS)",
+      "startDate": "May 2023",
+      "endDate": "May 2025",
+      "score": "GPANGNE: 4.4/5.0; GRADE @ SWS: A",
+      "courses": []
     },
     {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
+      "institution": "National University of Singapore, School of Computing",
+      "location": "Singapore",
+      "url": "",
+      "area": "Computer Science",
+      "studyType": "Master of Computing, Computer Science Specialization",
+      "startDate": "Aug 2025",
+      "endDate": "Present",
+      "score": "",
+      "courses": []
     }
   ],
+  "certificates": [],
   "publications": [
     {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "name": "Decoding Dolphin Echolocation: Individual and Material-Based Variability in Click Patterns",
+      "publisher": "Proceedings of OCEANS 2025 Great Lakes USA",
+      "releaseDate": "2025",
+      "url": "",
+      "summary": "Co-authored with X. Li, M. Hoffmann-Kuhnt, M. A. Chitre, and M. Henz. HOU P. is the first author."
     }
   ],
-  "skills": [
-    {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
+  "interests": [],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "3D Object Reconstruction from Dolphin Echolocation @ ARL",
+      "summary": "Designing deep learning pipelines to decode target information from dolphin clicks for voxel-level 3D reconstruction.",
+      "highlights": [],
+      "startDate": "Aug 2025",
+      "endDate": "Present",
+      "institution": "National University of Singapore",
+      "location": "Singapore",
+      "advisors": "A/Prof. Mandar Chitre & Dr. Matthias Hoffmann-Kuhnt"
+    },
+    {
+      "name": "Individual and Material-Based Variability in Dolphin Click @ ARL",
+      "summary": "Developed signal-processing and bi-LSTM models to decode dolphin clicks across different individuals and materials. Demonstrated both individual-specific and material-sensitive echolocation patterns as the first study in the field. Advanced understanding of how dolphins adapt sonar for perception, accepted to OCEANS 25 as the first author.",
+      "highlights": [],
+      "startDate": "Dec 2024",
+      "endDate": "July 2025",
+      "url": "",
+      "institution": "National University of Singapore",
+      "location": "Singapore",
+      "advisors": "A/Prof. Mandar Chitre & Dr. Matthias Hoffmann-Kuhnt"
+    },
+    {
+      "name": "Pascal-S Language Compiler Design and Implementation @ SCS",
+      "summary": "Designed and implemented a Pascal-S language compiler targeting C and RISC-V. Leveraged Flex and Bison to construct syntax trees, applying smart pointer utilization for memory management. Conducted syntax analysis and developed error handling and recovery mechanisms to enhance compiler robustness.",
+      "highlights": [],
+      "startDate": "Feb 2024",
+      "endDate": "June 2024",
+      "url": "https://github.com/RowletQwQ/BUPT-PASCC",
+      "institution": "Beijing University of Posts and Telecommunications",
+      "location": "Beijing, China",
+      "advisors": "A/Prof. Wang Yawen"
+    },
+    {
+      "name": "An Intelligent AIoT Solution for Household Plant Care@ SWS",
+      "summary": "Directed the hardware workstream, ensuring communication between the hardware components and backend. Developed edge computing modules by mapping cloud predictions to GPIO outputs.",
+      "highlights": [],
+      "startDate": "May 2023",
+      "endDate": "July 2023",
+      "url": "https://github.com/IndifferentYk/Intelligent-Plant-Care-Assistant",
+      "institution": "National University of Singapore",
+      "location": "Singapore",
+      "advisors": "A/Prof. Tan Wee Kek"
+    },
+    {
+      "name": "Automatic Grayscale Image-Colorization @ CCISTC",
+      "summary": "Investigated image colorization using CNNs, focusing on mitigating color leakage and object boundary artifacts. Conducted extensive literature reviews and proposed a convolutional-deconvolutional architecture.",
+      "highlights": [],
+      "startDate": "July 2022",
+      "endDate": "Sep 2022",
+      "url": "",
+      "institution": "University of Cambridge",
+      "location": "Remote",
+      "advisors": "Prof. Pietro Liò"
+    }
+  ],
+    "awards": [
+    {
+      "title": "Outstanding Graduate",
+      "date": "2025",
+      "awarder": "Beijing University of Posts & Telecommunications",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "University Scholarship",
+      "date": "2022, 2023, 2024",
+      "awarder": "Beijing University of Posts & Telecommunications",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "Merit Student",
+      "date": "2022, 2023",
+      "awarder": "Beijing University of Posts & Telecommunications",
+      "url": "",
+      "summary": ""
+    }
+  ],
+    "skills": [
+    {
+      "name": "Programming",
+      "level": "",
+      "icon": "",
+      "keywords": [
+        "Python",
+        "Julia",
+        "C/C++",
+        "Java",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Languages",
+      "level": "",
+      "icon": "",
+      "keywords": [
+        "Chinese (Native)",
+        "English (Fluent)",
+        "Japanese (Elementary)"
+      ]
+    },
+    {
+      "name": "Tests",
+      "level": "",
+      "icon": "",
+      "keywords": [
+        "TOEFL 114 (R30, L30, S27, W27)",
+        "GRE 332 (V162, Q170)"
+      ]
     }
   ]
 }
