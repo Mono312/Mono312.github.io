@@ -31,4 +31,4 @@ I'm a Master of Computing student at [School of Computing](https://www.comp.nus.
 
 Currently, I am completing my Master's dissertation at the [Acoustic Research Laboratory (ARL)](https://arl.nus.edu.sg) at NUS, supervised by [Prof. Mandar Chitre](http://www.chitre.net) and [Dr. Matthias Hoffmann-Kuhnt](https://arl.nus.edu.sg/people/matthias-hoffmann-kuhnt/). I also work closely with [Prof. Martin Henz](https://www.comp.nus.edu.sg/~henz/) for my undergraduate FYP and Master Project. My research focuses on **analyzing dolphin bioacoustics using machine learning techniques**, aiming to decode information from dolphin clicks for advanced applications.
 
-In my spare time, I enjoy singing, hanging out with friends, photography, Model United Nations, and doing Duolingo. I hope to spare more time at concerts, sharpen her badminton skills, and squeeze in a few extra rounds of Splatoon.
+In my spare time, I enjoy singing, hanging out with friends, photography, Model United Nations, and doing Duolingo. I hope to spare more time at concerts, sharpen my badminton skills, and squeeze in a few extra rounds of Splatoon.
