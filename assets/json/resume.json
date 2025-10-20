@@ -50,7 +50,7 @@
       "studyType": "Visiting Student (NGNE & SWS)",
       "startDate": "May 2023",
       "endDate": "May 2025",
-      "score": "GPANGNE: 4.4/5.0; GRADE @ SWS: A",
+      "score": "GPA @ NGNE: 4.4/5.0; GRADE @ SWS: A",
       "courses": []
     },
     {
@@ -72,7 +72,7 @@
       "publisher": "Proceedings of OCEANS 2025 Great Lakes USA",
       "releaseDate": "2025",
       "url": "",
-      "summary": "Co-authored with X. Li, M. Hoffmann-Kuhnt, M. A. Chitre, and M. Henz. HOU P. is the first author."
+      "summary": ""
     }
   ],
   "interests": [],
@@ -90,7 +90,7 @@
     },
     {
       "name": "Individual and Material-Based Variability in Dolphin Click @ ARL",
-      "summary": "Developed signal-processing and bi-LSTM models to decode dolphin clicks across different individuals and materials. Demonstrated both individual-specific and material-sensitive echolocation patterns as the first study in the field. Advanced understanding of how dolphins adapt sonar for perception, accepted to OCEANS 25 as the first author.",
+      "summary": "Developed signal-processing and bi-LSTM models to decode dolphin clicks across different individuals and materials. Demonstrated both individual-specific and material-sensitive echolocation patterns.",
       "highlights": [],
       "startDate": "Dec 2024",
       "endDate": "July 2025",
@@ -100,8 +100,8 @@
       "advisors": "A/Prof. Mandar Chitre & Dr. Matthias Hoffmann-Kuhnt"
     },
     {
-      "name": "Pascal-S Language Compiler Design and Implementation @ SCS",
-      "summary": "Designed and implemented a Pascal-S language compiler targeting C and RISC-V. Leveraged Flex and Bison to construct syntax trees, applying smart pointer utilization for memory management. Conducted syntax analysis and developed error handling and recovery mechanisms to enhance compiler robustness.",
+      "name": "Pascal-S Language Compiler Design and Implementation @ BUPT",
+      "summary": "Designed and implemented a Pascal-S language compiler targeting C and RISC-V. Leveraged Flex and Bison to construct syntax trees. Conducted syntax analysis and developed error handling and recovery mechanisms.",
       "highlights": [],
       "startDate": "Feb 2024",
       "endDate": "June 2024",
@@ -111,8 +111,8 @@
       "advisors": "A/Prof. Wang Yawen"
     },
     {
-      "name": "An Intelligent AIoT Solution for Household Plant Care@ SWS",
-      "summary": "Directed the hardware workstream, ensuring communication between the hardware components and backend. Developed edge computing modules by mapping cloud predictions to GPIO outputs.",
+      "name": "An Intelligent AIoT Solution for Household Plant Care @ NUS SWS",
+      "summary": "Directed the hardware workstream, ensuring communication between the hardware components and backend.",
       "highlights": [],
       "startDate": "May 2023",
       "endDate": "July 2023",
@@ -120,17 +120,6 @@
       "institution": "National University of Singapore",
       "location": "Singapore",
       "advisors": "A/Prof. Tan Wee Kek"
-    },
-    {
-      "name": "Automatic Grayscale Image-Colorization @ CCISTC",
-      "summary": "Investigated image colorization using CNNs, focusing on mitigating color leakage and object boundary artifacts. Conducted extensive literature reviews and proposed a convolutional-deconvolutional architecture.",
-      "highlights": [],
-      "startDate": "July 2022",
-      "endDate": "Sep 2022",
-      "url": "",
-      "institution": "University of Cambridge",
-      "location": "Remote",
-      "advisors": "Prof. Pietro Liò"
     }
   ],
     "awards": [
@@ -165,8 +154,7 @@
         "Python",
         "Julia",
         "C/C++",
-        "Java",
-        "SQL"
+        "Java"
       ]
     },
     {
