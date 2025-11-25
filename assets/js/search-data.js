@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-talks",
+          title: "talks",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/talks/";
+          },
         },{id: "nav-cv",
           title: "cv",
           description: "",
@@ -380,6 +387,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-a-paper-was-accepted-at-oceans-2025-great-lakes",
           title: '📄 A paper was accepted at OCEANS 2025 Great Lakes!',
+          description: "",
+          section: "News",},{id: "news-i-delivered-the-november-research-seminar-at-tropical-marine-science-institute-tmsi-titled-decoding-dolphin-echolocation-from-click-patterns-to-spatial-perception",
+          title: '🎤 I delivered the November Research Seminar at Tropical Marine Science Institute (TMSI)...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
