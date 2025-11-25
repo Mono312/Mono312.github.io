@@ -1,12 +1,28 @@
----
----
 {%- comment -%}
 This file should be in _includes/ directory as talk.liquid
 It renders a single talk entry, similar to how bib.liquid renders publications
 (but bib.liquid is called automatically by jekyll-scholar plugin)
 {%- endcomment -%}
 
-<div class="row">
+{%- comment -%} Highlight my own name like a marker {%- endcomment -%}
+{% assign my_last = site.scholar.last_name | first %}
+{% assign my_first = site.scholar.first_name | first %}
+{% assign my_full = my_first | append: " " | append: my_last %}
+
+{%- comment -%} Use speakers field if available {%- endcomment -%}
+{% assign speaker_name = talk.speakers | default: talk.speaker %}
+
+{% if speaker_name == my_full %}
+  {% assign highlighted = '<span class="name-highlight">' 
+      | append: speaker_name 
+      | append: '</span>' %}
+{% else %}
+  {% assign highlighted = speaker_name %}
+{% endif %}
+
+
+
+<div class="row" style="border-bottom: none; margin-bottom: 1rem;">
   {% if site.enable_talk_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if talk.abbr -%}
@@ -35,46 +51,33 @@ It renders a single talk entry, similar to how bib.liquid renders publications
   <!-- Talk content -->
   <div id="{{ talk.key }}" class="{% if site.enable_talk_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
     <!-- Title -->
-    <div class="title"><strong>{{ talk.title }}</strong></div>
+    <div class="title">
+      {% if talk.url %}
+        <strong><a href="{{ talk.url }}">{{ talk.title }}</a></strong>
+      {% else %}
+        <strong>{{ talk.title }}</strong>
+      {% endif %}
+    </div>
+
     
     <!-- Speakers -->
     {% if talk.speakers %}
-      <div class="author">
-        {% assign speaker_array = talk.speakers | split: ", " %}
-        {% for speaker in speaker_array %}
-          {% if forloop.length > 1 %}
-            {% if forloop.first == false %}
-              {% if forloop.length > 2 %}, {% elsif forloop.length == 2 %} {% endif %}
-            {% endif %}
-            {% if forloop.last %}and {% endif %}
-          {% endif %}
-          
-          {% assign is_self = false %}
-          {% if site.scholar.last_name %}
-            {% for last_name in site.scholar.last_name %}
-              {% if speaker contains last_name %}
-                {% assign is_self = true %}
-              {% endif %}
-            {% endfor %}
-          {% endif %}
-          
-          {% if is_self %}
-            <u>{{ speaker }}</u>
-          {% else %}
-            {{ speaker }}
-          {% endif %}
-        {% endfor %}
-      </div>
+     <div class="talk-author">
+      {{ highlighted }}
+    </div>
     {% endif %}
 
     <!-- Venue and date -->
+    {% assign parts = "" | split: "" %}
+    {% if talk.venue %}{% assign parts = parts | push: talk.venue %}{% endif %}
+    {% if talk.location %}{% assign parts = parts | push: talk.location %}{% endif %}
+    {% if talk.date %}{% assign parts = parts | push: talk.date %}{% endif %}
+
     <div class="periodical">
-      {% if talk.venue %}{{ talk.venue }}{% endif %}
-      {% if talk.venue and talk.location %}, {% endif %}
-      {% if talk.location %}{{ talk.location }}{% endif %}
-      {% if talk.venue or talk.location %}{% if talk.date %}, {% endif %}{% endif %}
-      {% if talk.date %}{{ talk.date }}{% endif %}
+      {{ parts | join: ", " }}
     </div>
+
+
 
     <!-- Description/Note -->
     {% if talk.description %}

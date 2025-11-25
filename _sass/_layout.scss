@@ -44,6 +44,17 @@ body.sticky-bottom-footer {
  * Publications
  ******************************************************************************/
 
+ html[data-theme="light"] #talks {
+  margin-top: 3rem;          /* distance from previous section */
+  margin-bottom: 1.5rem;     /* distance to the list below */
+  padding-bottom: 0.25rem;   /* space between text and line */
+}
+
+html[data-theme="dark"] #talks {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.25rem;
+}
 // TODO: redefine publications layout.
 
 /*****************************************************************************

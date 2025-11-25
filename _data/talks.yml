@@ -5,3 +5,4 @@
   date: "2025-11-24"  # 或者用 "Nov 2025", "2025-11-24" 也可以
   preview: "TMSI_Talk-Pengkun.jpg"  # 图片放在 assets/img/talks/ 目录
   description: "Invited talk"  # 可选：额外描述
+  url: "https://www.tmsi.nus.edu.sg/event/tmsi-seminar-series-november-2025/"  # 可选：链接到演讲页面

@@ -159,3 +159,16 @@ html[data-theme-setting="light"] {
     display: block;
   }
 }
+
+/* Light theme highlight */
+html[data-theme="light"] .name-highlight {
+  background-color: #a1bef8ab;
+  color: inherit;
+}
+
+/* Dark theme highlight */
+html[data-theme="dark"] .name-highlight {
+  background-color: #f4c9dca0;
+  color: inherit;
+}
+
