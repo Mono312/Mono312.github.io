@@ -1,0 +1,11 @@
+{%- comment -%}
+This file should be in _includes/ directory as talks_list.liquid
+Since we don't have a jekyll-scholar equivalent for talks,
+we need to manually loop through and render each talk
+{%- endcomment -%}
+
+<div class="talks">
+  {% for talk in site.data.talks %}
+    {% include talk.liquid %}
+  {% endfor %}
+</div>

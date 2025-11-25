@@ -1,0 +1,7 @@
+- key: dolphin_echolocation_2025
+  title: "Decoding Dolphin Echolocation: From Click Patterns to Spatial Perception"
+  speakers: "Pengkun Hou"  # 或者 "John Doe, Jane Smith" 多个演讲者用逗号分隔
+  venue: "TMSI Research Seminar, NUS"  # 注意是 venue 不是 event
+  date: "2025-11-24"  # 或者用 "Nov 2025", "2025-11-24" 也可以
+  preview: "TMSI_Talk-Pengkun.jpg"  # 图片放在 assets/img/talks/ 目录
+  description: "Invited talk"  # 可选：额外描述

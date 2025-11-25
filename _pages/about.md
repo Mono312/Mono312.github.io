@@ -12,10 +12,10 @@ profile:
 
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -32,3 +32,13 @@ I'm a Master of Computing student at [School of Computing](https://www.comp.nus.
 Currently, I am completing my Master's dissertation at the [Acoustic Research Laboratory (ARL)](https://arl.nus.edu.sg) at NUS, supervised by [Prof. Mandar Chitre](http://www.chitre.net) and [Dr. Matthias Hoffmann-Kuhnt](https://arl.nus.edu.sg/people/matthias-hoffmann-kuhnt/). I also work closely with [Prof. Martin Henz](https://www.comp.nus.edu.sg/~henz/) for my undergraduate FYP and Master Project. My research focuses on **analyzing dolphin bioacoustics using machine learning techniques**, aiming to decode information from dolphin clicks for advanced applications.
 
 In my spare time, I enjoy singing, hanging out with friends, photography, Model United Nations, and doing Duolingo. I hope to spare more time at concerts, sharpen my badminton skills, and squeeze in a few extra rounds of Splatoon.
+
+## News
+{% include news.liquid %}
+
+## Publications {#publications}
+
+{% include publications_list.liquid %}
+
+## Talks {#talks}
+{% include talks_list.liquid %}
