@@ -27,11 +27,11 @@ latest_posts:
 # Hou Pengkun（侯朋昆）
 Hi There! 👋
 
-I'm a Master of Computing student at [School of Computing](https://www.comp.nus.edu.sg), [National University of Singapore](https://www.nus.edu.sg), specializing in Computer Science. In 2025, I received my B.Eng degree in Computer science from [Beijing University of Posts and Telecommunications (BUPT)](http://www.bupt.edu.cn).
+I'm a PhD student in the [Department of Electrical & Computer Engineering](https://cde.nus.edu.sg/ece/), [National University of Singapore](https://www.nus.edu.sg), started August 2026. Prior to this, I completed my [Master of Computing (Computer Science)](https://www.comp.nus.edu.sg/programmes/pg/mcs/) at NUS, and in 2025 received my B.Eng degree in Computer Science from [Beijing University of Posts and Telecommunications (BUPT)](http://www.bupt.edu.cn). 
 
-Currently, I am completing my Master's dissertation at the [Acoustic Research Laboratory (ARL)](https://arl.nus.edu.sg) at NUS, supervised by [Prof. Mandar Chitre](http://www.chitre.net) and [Dr. Matthias Hoffmann-Kuhnt](https://arl.nus.edu.sg/people/matthias-hoffmann-kuhnt/). I also work closely with [Prof. Martin Henz](https://www.comp.nus.edu.sg/~henz/) for my undergraduate FYP and Master Project. My research focuses on **analyzing dolphin bioacoustics using machine learning techniques**, aiming to decode information from dolphin clicks for advanced applications.
+I am at the [Acoustic Research Laboratory (ARL)](https://arl.nus.edu.sg), supervised by [Assoc. Prof. Mandar Chitre](http://www.chitre.net) and [Dr. Matthias Hoffmann-Kuhnt](https://arl.nus.edu.sg/people/matthias-hoffmann-kuhnt/), researching **dolphin-inspired 3D acoustic imaging**, building on my prior work analyzing dolphin bioacoustics with machine learning. Previously, I also worked closely with [Prof. Martin Henz](https://www.comp.nus.edu.sg/~henz/) for my undergraduate FYP and Master's project.
 
-In my spare time, I enjoy singing, hanging out with friends, photography, Model United Nations, and doing Duolingo. I hope to spare more time at concerts, sharpen my badminton skills, and squeeze in a few extra rounds of Splatoon.
+In my spare time, I enjoy singing, hanging out with friends, photography, playing the ukulele, Model United Nations, and doing Duolingo. I hope to spare more time at concerts, sharpen my badminton skills, and squeeze in a few extra rounds of Splatoon.
 
 ## News
 {% include news.liquid %}
