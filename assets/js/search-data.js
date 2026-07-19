@@ -23,13 +23,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/talks/";
           },
-        },{id: "nav-cv",
-          title: "cv",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/cv/";
-          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
@@ -371,16 +364,8 @@ ninja.data = [{
             window.location.href = "/blog/2015/formatting-and-links/";
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-joined-nus-as-a-student-in-the-non-graduating-non-exchange-ngne-program",
+      },{id: "news-i-joined-nus-as-a-student-in-the-non-graduating-non-exchange-ngne-program",
           title: '🎓I joined NUS as a student in the Non-graduating Non-exchange (NGNE) program. 🇸🇬...',
-          description: "",
-          section: "News",},{id: "news-i-continued-my-study-at-nus-as-a-student-in-the-master-of-computing-program-cs-track-and-continued-my-research-in-the-acoustic-research-lab",
-          title: '🎓I continued my study at NUS as a student in the Master of...',
           description: "",
           section: "News",},{id: "news-i-graduated-from-bupt-and-earned-my-b-eng-degree-as-an-outstanding-graduate",
           title: '🎉 I graduated from BUPT and earned my B.Eng. degree as an Outstanding...',
@@ -388,8 +373,20 @@ ninja.data = [{
           section: "News",},{id: "news-a-paper-was-accepted-at-oceans-2025-great-lakes",
           title: '📄 A paper was accepted at OCEANS 2025 Great Lakes!',
           description: "",
+          section: "News",},{id: "news-i-continued-my-study-at-nus-as-a-student-in-the-master-of-computing-program-cs-track-and-continued-my-research-in-the-acoustic-research-lab",
+          title: '🎓I continued my study at NUS as a student in the Master of...',
+          description: "",
           section: "News",},{id: "news-i-delivered-the-november-research-seminar-at-tropical-marine-science-institute-tmsi-titled-decoding-dolphin-echolocation-from-click-patterns-to-spatial-perception",
           title: '🎤 I delivered the November Research Seminar at Tropical Marine Science Institute (TMSI)...',
+          description: "",
+          section: "News",},{id: "news-our-paper-concrete-proof-robust-dolphin-echolocation-across-diverse-materials-was-accepted-at-the-society-for-marine-mammalogy-biennial-conference-2026-smm-2026",
+          title: '📄 Our paper “Concrete Proof: Robust Dolphin Echolocation Across Diverse Materials” was accepted...',
+          description: "",
+          section: "News",},{id: "news-i-graduated-from-the-master-of-computing-program-at-nus",
+          title: '🎓 I graduated from the Master of Computing program at NUS.',
+          description: "",
+          section: "News",},{id: "news-i-started-my-phd-in-the-department-of-electrical-amp-amp-computer-engineering-at-nus",
+          title: '🎓 I started my PhD in the Department of Electrical &amp;amp;amp; Computer Engineering...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
